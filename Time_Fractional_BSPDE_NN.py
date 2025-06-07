@@ -1,3 +1,4 @@
+
 import numpy as np
 import streamlit as st
 import yfinance as yf
@@ -15,4 +16,7 @@ st.title("Time Fractinal Black Scholes Partial Differential Equation")
 if st.button("**Summary**"):
   st.subheader("**AI plus Partial Differential Eqns ie Physics Informed Neural Network (PINN) demonstration.**")
   st.write("**We'll explore implementing a PINN to optimize the efficiency and application of the Black Scholes Formula.**")
-st.sidebar:
+with st.sidebar:
+  st.header("Caputo integer-valued derivatives")
+  st.slider($\sf d/dx$, 0, 1, 0.25)
+
