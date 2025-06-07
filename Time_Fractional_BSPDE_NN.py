@@ -24,7 +24,7 @@ with st.sidebar:
 # T = Maturity time of put option
 # t = [0, T]
 # S = stock price
-# U(S, t) = the price of the option as a function of S and t.
+# 𝑼(S, t) = the price of the option as a function of S and t.
 # 𝞼 = the the volatility of the stock
 # r = the risk-free interest rate
 
