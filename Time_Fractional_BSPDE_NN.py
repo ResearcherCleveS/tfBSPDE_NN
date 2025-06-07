@@ -22,4 +22,3 @@ with st.sidebar:
   st.slider("***D:^alpha: = d/dx***", min_value=0.0, max_value=1.0, step=0.125, format='%.3f')
 
 
-
