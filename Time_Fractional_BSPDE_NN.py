@@ -11,7 +11,7 @@ import plotly.graph_objects as go
 #import pandas as pd
 import matplotlib.pyplot as plt
 
-st.header("Time Fractinal Black Scholes Partial Differential Equation")
+st.title("Time Fractinal Black Scholes Partial Differential Equation")
 if st.button("**Summary**"):
-  st.title("**AI plus Partial Differential Eqns ie Physics Informed Neural Network (PINN) demonstration.**")
+  st.header("**AI plus Partial Differential Eqns ie Physics Informed Neural Network (PINN) demonstration.**")
   st.caption("**We'll explore implementing a PINN to optimize the efficiency and application of the Black Scholes Formula.**")
