@@ -18,5 +18,5 @@ if st.button("**Summary**"):
   st.write("**We'll explore implementing a PINN to optimize the efficiency and application of the Black Scholes Formula.**")
 with st.sidebar:
   st.header("**Caputo Integer-Valued Derivatives**")
-  st.slider("$\st d/dx$", 0, 1, 0.25)
+  st.slider("\st d/dx", 0, 1, 0.25)
 
