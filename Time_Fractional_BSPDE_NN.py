@@ -18,5 +18,6 @@ if st.button("**Summary**"):
   st.write("**We'll explore implementing a PINN to optimize the efficiency and application of the Black Scholes Formula.**")
 with st.sidebar:
   st.header("**Caputo Integer-Valued Derivatives**")
+  st.write("May need to convert to integer value representations of fraction values.")
   st.slider("*d/dx*", min_value=0.0, max_value=1.0, step=0.125)
 
