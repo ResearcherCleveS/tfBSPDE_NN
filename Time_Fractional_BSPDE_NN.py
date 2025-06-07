@@ -17,6 +17,6 @@ if st.button("**Summary**"):
   st.subheader("**AI plus Partial Differential Eqns ie Physics Informed Neural Network (PINN) demonstration.**")
   st.write("**We'll explore implementing a PINN to optimize the efficiency and application of the Black Scholes Formula.**")
 with st.sidebar:
-  st.header("Caputo integer-valued derivatives")
-  st.slider(d/dx, 0, 1, 0.25)
+  st.header("**Caputo Integer-Valued Derivatives**")
+  st.slider("$\st d/dx$", 0, 1, 0.25)
 
