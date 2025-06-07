@@ -19,7 +19,7 @@ if st.button("**Summary**"):
 with st.sidebar:
   st.header("**Caputo Integer-Valued Derivatives**")
   st.write("May need to convert to integer value representations of fraction values.")
-  st.slider("***d/dx***", min_value=0.0, max_value=1.0, step=0.125, '%.1f')
+  st.slider("***d/dx***", min_value=0.0, max_value=1.0, step=0.125, format='%.1f')
 
 
 
