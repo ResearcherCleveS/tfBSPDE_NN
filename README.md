@@ -1,2 +1,2 @@
 # $\sf tfBSPDE \ NN$
-## st.write(time fractional Black Scholes Neural Network)
+## $\sf Time \ Fractional \ Black \ Scholes \ Neural \ Network$
