@@ -21,5 +21,10 @@ with st.sidebar:
   st.write("May need to convert to integer value representations of fraction values.")
   # st.markdown("$\sf d\over{\sf dx}$")
   st.slider("𝗗𝛂", min_value=0.0, max_value=1.0, step=0.125, format='%.3f')
-
+# T = Maturity time of put option
+# t = [0, T]
+# S = stock price
+# U(S, t) = the price of the option as a function of S and t.
+# 𝞼 = the the volatility of the stock
+# r = the risk-free interest rate
 
