@@ -11,7 +11,7 @@ $\sf (1)$
 
 Using the Caputo fractional derivative of $sf f(x)$ denoted by $\sf D_c^\alpha f(x), \ x \in \mathbb{R}$ is defined as
 
-$\sf D_c^\alpha f(x) = \frac{1}{\Gamma(1-\alpha)}\int_d^x\frac{f'(t)}{(x-t)^\alpha}dt,$
+$\sf D_c^\alpha f(x) = \frac{1}{\Gamma(1-\alpha)}\int\limits_d^x\frac{f'(t)}{(x-t)^\alpha}dt,$
 
 d the lower limit of integration.
 
