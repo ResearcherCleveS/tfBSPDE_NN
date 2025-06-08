@@ -12,7 +12,7 @@ import plotly.graph_objects as go
 #import pandas as pd
 import matplotlib.pyplot as plt
 
-st.title("Time Fractinal Black Scholes Partial Differential Equation")
+st.title("Time Fractinal Black-Scholes Partial Differential Equation")
 if st.button("**Summary**"):
   st.subheader("**AI plus Partial Differential Eqns ie Physics Informed Neural Network (PINN) demonstration.**")
   st.write("**We'll explore implementing a PINN to optimize the efficiency and application of the Black Scholes Formula.**")
@@ -27,4 +27,6 @@ with st.sidebar:
 # 𝑼(S, t) = the price of the option as a function of S and t.
 # 𝞼 = the the volatility of the stock
 # r = the risk-free interest rate
+# The Caputo 
+# 𝛂 = 2. I assume 𝛂-order derivative is 2, for 𝛂 ∈ [n-1, n], n ∈ ℕ, since the Black Scholes Eqn is second order.
 
