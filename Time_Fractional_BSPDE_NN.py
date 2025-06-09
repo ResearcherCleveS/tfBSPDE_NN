@@ -13,9 +13,14 @@ import plotly.graph_objects as go
 import matplotlib.pyplot as plt
 
 st.title("Time Fractinal Black-Scholes Partial Differential Equation")
-if st.button("**Summary**"):
-  st.subheader("**AI plus Partial Differential Eqns ie Physics Informed Neural Network (PINN) demonstration.**")
-  st.write("**We'll explore implementing a PINN to optimize the efficiency and application of the Black Scholes Formula.**")
+
+st.button("**Summary**")
+st.button.subheader("**AI plus Partial Differential Eqns ie Physics Informed Neural Network (PINN) demonstration.**")
+st.button.write("**We'll explore implementing a PINN to optimize the efficiency and application of the Black Scholes Formula.**")
+
+# if st.button("**Summary**"):
+#   st.subheader("**AI plus Partial Differential Eqns ie Physics Informed Neural Network (PINN) demonstration.**")
+#   st.write("**We'll explore implementing a PINN to optimize the efficiency and application of the Black Scholes Formula.**")
 
 st.sidebar.header("**Caputo Integer-Valued Derivatives**")
 st.sidebar.write("May need to convert to integer value representations of fraction values.")
