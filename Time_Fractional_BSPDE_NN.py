@@ -29,6 +29,15 @@ st.sidebar.header("**Caputo Integer-Valued Derivatives**")
 st.sidebar.write("May need to convert to integer value representations of fraction values.")
 st.sidebar.slider("𝗗𝛂", min_value=0.0, max_value=1.0, step=0.125, format='%.3f')
 
+st.sidebar.header("**𝗗𝛂**")
+𝗗𝛂 = st.sidebar.number_input(
+    min_value=0.0,
+    max_value=1.0,
+    value=0.25,
+    step=0.05,
+    format="%.01f"
+)
+
 # with st.sidebar:
 #   st.header("**Caputo Integer-Valued Derivatives**")
 #   st.write("May need to convert to integer value representations of fraction values.")
