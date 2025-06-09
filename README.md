@@ -9,7 +9,7 @@ Let $\sf U(S, t)$ be the price option as a function of the stock price $\sf S$ a
 $\sf \frac{\partial U}{\partial t} + \frac{1}{2}\sigma^2S^2\frac{\partial^2U}{\partial S^2}+rS\frac{\partial U}{\partial S}-rU = 0.$ \
 $\sf (1)$
 
-Using the Caputo fractional derivative of $sf f(x)$ denoted by $\sf D_c^\alpha f(x), \ x \in \mathbb{R}$ is defined as
+Using the Caputo fractional derivative of $\sf f(x)$ denoted by $\sf D_c^\alpha f(x), \ x \in \mathbb{R}$ is defined as
 
 $\sf D_c^\alpha f(x) = \frac{1}{\Gamma(1-\alpha)}\int_d^x\frac{f'(t)}{(x-t)^\alpha}dt,$
 
