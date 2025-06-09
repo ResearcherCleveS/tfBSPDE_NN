@@ -31,7 +31,7 @@ st.sidebar.slider("𝗗𝛂", min_value=0.0, max_value=1.0, step=0.125, format='
 
 st.sidebar.header("***Caputa Fractional Derivative***")
 𝗗𝛂 = st.sidebar.number_input(
-    "𝗗𝛂",
+    "𝗗c𝛂 f'(x)",
     min_value=0.0,
     max_value=1.05,
     value=0.25,
