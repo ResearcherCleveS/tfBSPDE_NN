@@ -25,7 +25,7 @@ if st.button("**Summary**"):
   st.subheader("**AI plus Partial Differential Eqns ie Physics Informed Neural Network (PINN) demonstration.**")
   st.write("**We'll explore implementing a PINN to optimize the efficiency and application of the Black Scholes Formula.**")
 
-st.sidebar.header("**Caputo Integer-Valued Derivatives**")
+st.sidebar.header("Caputo Integer-Valued Derivatives")
 st.sidebar.write("May need to convert to integer value representations of fraction values.")
 st.sidebar.slider("𝗗𝛂", min_value=0.0, max_value=1.0, step=0.125, format='%.3f')
 
@@ -33,7 +33,7 @@ st.sidebar.header("***Caputa Fractional Derivative***")
 𝗗𝛂 = st.sidebar.number_input(
     "𝗗𝛂",
     min_value=0.0,
-    max_value=1.5,
+    max_value=1.05,
     value=0.25,
     step=0.05,
     format="%.2f"
