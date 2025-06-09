@@ -44,3 +44,13 @@ st.sidebar.slider("𝗗𝛂", min_value=0.0, max_value=1.0, step=0.125, format='
 # The Caputo 
 # 𝛂 = 2. I assume 𝛂-order derivative is 2, for 𝛂 ∈ [n-1, n], n ∈ ℕ, since the Black Scholes Eqn is second order.
 
+st.sidebar.header('Strike Price Filter Parameters')
+
+min_strike_pct = st.sidebar.number_input(
+    'Minimum Strike Price (% of Spot Price)',
+    min_value=50.0,
+    max_value=199.0,
+    value=80.0,
+    step=1.0,
+    format="%.1f"
+)
