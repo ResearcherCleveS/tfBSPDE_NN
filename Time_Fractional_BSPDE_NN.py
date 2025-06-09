@@ -31,11 +31,12 @@ st.sidebar.slider("𝗗𝛂", min_value=0.0, max_value=1.0, step=0.125, format='
 
 st.sidebar.header("**𝗗𝛂**")
 𝗗𝛂 = st.sidebar.number_input(
+    "𝗗𝛂",
     min_value=0.0,
     max_value=1.0,
     value=0.25,
     step=0.05,
-    format="%.1f"
+    format="%.2f"
 )
 
 # with st.sidebar:
