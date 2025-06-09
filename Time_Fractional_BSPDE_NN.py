@@ -35,7 +35,7 @@ st.sidebar.header("**𝗗𝛂**")
     max_value=1.0,
     value=0.25,
     step=0.05,
-    format="%.01f"
+    format="%.2f"
 )
 
 # with st.sidebar:
