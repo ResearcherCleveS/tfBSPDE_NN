@@ -15,9 +15,9 @@ import matplotlib.pyplot as plt
 st.title("Time Fractinal Black-Scholes Partial Differential Equation")
 
 with st.sidebar:
-  st.button("**Summary**")
-  st.subheader("**AI plus Partial Differential Eqns ie Physics Informed Neural Network (PINN) demonstration.**")
-  st.write("**We'll explore implementing a PINN to optimize the efficiency and application of the Black Scholes Formula.**")
+  if st.button("**Summary**"):
+    st.subheader("**AI plus Partial Differential Eqns ie Physics Informed Neural Network (PINN) demonstration.**")
+    st.write("**We'll explore implementing a PINN to optimize the efficiency and application of the Black Scholes Formula.**")
 
 
 
