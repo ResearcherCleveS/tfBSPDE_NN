@@ -27,7 +27,7 @@ import plotly.graph_objects as go
 #import pandas as pd
 import matplotlib.pyplot as plt
 
-st.title("Time Fractinal Black-Scholes Partial Differential Equation")
+st.title("Time Fractinal Black-Scholes Partial Differential Equation 👑 King Vester")
 
 # with st.sidebar:
 #   if st.button("**Summary**"):
