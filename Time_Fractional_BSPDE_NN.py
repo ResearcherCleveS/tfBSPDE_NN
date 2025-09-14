@@ -13,19 +13,19 @@ import plotly.graph_objects as go
 import torch.distributions as distributions
 from matplotlib import cm # For colormaps
 
-import torch
-import numpy as np
-import streamlit as st
-import yfinance as yf
-import pandas as pd
-import numpy as np
-from datetime import timedelta
-from scipy.stats import norm
-from scipy.optimize import brentq
-from scipy.interpolate import griddata
-import plotly.graph_objects as go
-#import pandas as pd
-import matplotlib.pyplot as plt
+# import torch
+# import numpy as np
+# import streamlit as st
+# import yfinance as yf
+# import pandas as pd
+# import numpy as np
+# from datetime import timedelta
+# from scipy.stats import norm
+# from scipy.optimize import brentq
+# from scipy.interpolate import griddata
+# import plotly.graph_objects as go
+# #import pandas as pd
+# import matplotlib.pyplot as plt
 
 st.title("Time Fractinal Black-Scholes Partial Differential Equation 👑 King Vester")
 
