@@ -33,10 +33,10 @@ st.sidebar.header("***Caputa Fractional Derivative***")
 𝗗𝛂 = st.sidebar.number_input(
     "𝗗𝑐𝛂 𝙛´(𝒙)",
     min_value=0.0,
-    max_value=1.05,
-    value=0.25,
-    step=0.05,
-    format="%.2f"
+    max_value=1.00,
+    value=0.10,
+    step=0.10,
+    format="%.4f"
 )
 
 # with st.sidebar:
