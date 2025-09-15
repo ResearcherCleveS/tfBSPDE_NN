@@ -71,11 +71,11 @@ st.sidebar.header("***Caputa Fractional Derivative***")
 
 # st.sidebar.header('Strike Price Filter Parameters')
 
-# min_strike_pct = st.sidebar.number_input(
-#     'Minimum Strike Price (% of Spot Price)',
-#     min_value=50.0,
-#     max_value=199.0,
-#     value=80.0,
-#     step=1.0,
-#     format="%.1f"
-# )
+min_strike_pct = st.sidebar.number_input(
+    'Minimum Strike Price (% of Spot Price)',
+    min_value=50.0,
+    max_value=199.0,
+    value=80.0,
+    step=1.0,
+    format="%.1f"
+)
