@@ -69,7 +69,7 @@ st.sidebar.header("***Caputa Fractional Derivative***")
 # The Caputo 
 # 𝛂 = 2. I assume 𝛂-order derivative is 2, for 𝛂 ∈ [n-1, n], n ∈ ℕ, since the Black Scholes Eqn is second order.
 
-# st.sidebar.header('Strike Price Filter Parameters')
+st.sidebar.header('Strike Price Filter Parameters')
 
 min_strike_pct = st.sidebar.number_input(
     'Minimum Strike Price (% of Spot Price)',
